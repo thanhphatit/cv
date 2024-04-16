@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== FAVICONS ==========-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="assets/favicons/site.webmanifest"
+    />
+    <meta
+      name="msapplication-TileColor"
+      content="#da532c"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--=== Preview Links ===-->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://t-damer.github.io/yourCV/"
+    />
+    <meta property="og:title" content="CV" />
+    <meta
+      property="og:description"
+      content="Circuum vitae 📃"
+    />
+    <meta property="og:image" content="preview.png" />
+    <meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      property="twitter:url"
+      content="https://t-damer.github.io/yourCV/"
+    />
+    <meta property="twitter:title" content="CV" />
+    <meta
+      property="twitter:description"
+      content="Circuum vitae 📃"
+    />
+    <meta property="twitter:image" content="preview.png" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive CV</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a target="_blank" href="#" class="nav__logo">Daniil</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a target="_blank" href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#education" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i
+                >Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#experience" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i
+                >Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i
+                >Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i
+                >Externals
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a target="_blank" href="#interests " class="nav__link">
+                <i class="bx bx-game nav__icon"></i
+                >Interests
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav__icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/img/perfil.png"
+                  alt="logo"
+                  class="home__img"
+                />
+
+                <h1 class="home__title">
+                  DANIIL <b>PANKOV</b>
+                </h1>
+                <h3 class="home__profession">
+                  Web developer
+                </h3>
+
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home__button-mobil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information"
+                  ><i class="bx bx-envelope home__icon"></i
+                  >dpancov64@gmail.com</span
+                >
+                <span class="home__information"
+                  ><i class="bx bxs-map-alt home__icon"></i
+                  >Russia, Voronezh, Boulvar-Pobedy</span
+                >
+                <span class="home__information"
+                  ><i class="bx bx-phone home__icon"></i
+                  >+7-980-541-39-90</span
+                >
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Change Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Generate PDF button for desktop -->
+            <i
+              class="bx bxs-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIALS</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://linkedin.com/in/t-damer"
+                target="_blank"
+                class="social__link"
+              >
+                <i
+                  class="
+                    bx
+                    bxl-linkedin-square
+                    social__icon
+                  "
+                ></i
+                >@t-damer
+              </a>
+              <a
+                href="https://www.instagram.coCVrontenddamer/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i
+                >@frontenddamer
+              </a>
+              <a
+                href="https://twitter.com/True_Damer"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-twitter social__icon"></i
+                >@True_Damer
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              I’ve mastered backend and frontend
+              development, I am also good at design,
+              photography and a little at SMM. You can check
+              my works in related sections. I began as a
+              designer and photographer, worked in AIESEC as
+              a promoter on several forums and hosted the
+              online event page. Soon I realized, that this
+              is not enough to make a meaningful
+              contribution to life, so I began to code.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Edu.</h2>
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    MASTER OF DESIGN
+                  </h3>
+                  <span class="education__studies"
+                    >Self-taught</span
+                  >
+                  <span class="education__year"
+                    >2015-2021</span
+                  >
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    MERN DEVELOPER
+                  </h3>
+                  <span class="education__studies"
+                    >Self-taught</span
+                  >
+                  <span class="education__year"
+                    >2020-2021</span
+                  >
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    UI/UX Builder
+                  </h3>
+                  <span class="education__studies"
+                    >Self-taught</span
+                  >
+                  <span class="education__year">2021</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section
+            class="experience section"
+            id="experience"
+          >
+            <h2 class="section-title">Exp.</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    MASTER OF DESIGN
+                  </h3>
+                  <span class="experience__company"
+                    >2019-2020 | AIESEC Designer</span
+                  >
+                  <p class="experience__description">
+                    At 16, I joined an international team of
+                    volunteers. Was the administrator of the
+                    online page, did the design of posts, as
+                    well as their content
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">UI / UX</h3>
+                  <span class="experience__company"
+                    >2020 | AIESEC Administrator</span
+                  >
+                  <p class="experience__description">
+                    After a while I became the leading
+                    designer of the conference, the
+                    conversion of which was 90%. I also
+                    prepared several events and communicated
+                    with the audience
+                  </p>
+                </div>
+              </div>
+
+              <!-- BORODUTCH -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    CODE NINJA
+                  </h3>
+                  <span class="experience__company"
+                    >2020-2021 | Borodutch Labs</span
+                  >
+                  <p class="experience__description">
+                    After a while, I decided that design by
+                    itself does not change the world that
+                    much, but code combined with good design
+                    is a gold mine. I met Nikita Kolmogorov,
+                    who allowed me to study, undergo an
+                    internship, and then get a job with him.
+                  </p>
+                </div>
+              </div>
+          
+              <!-- BWL -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+  
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    bwl.gg
+                  </h3>
+                  <span class="experience__company"
+                    >2021-2024 | Big Whale Labs</span
+                  >
+                  <p class="experience__description">
+                    I worked at Big Whale Labs (aka <a target="_blank" href="https://bwl.gg" class="inline-link">bwl.gg</a>).
+                    This startup was the starting point of my adventure. 
+                    <br />I worked as a Full stack engineer, among other things writing and working with blockchain contracts on Solidity. 
+                    <br />We used a regular MERN stack, adding necessary tools (like tailwind, vite, react-query, jotai and others). 
+                    <br />We made <a target="_blank" href="https://sealcred.xyz" class="inline-link">sealcred.xyz</a>, <a target="_blank" href="https://echo.sealcred.xyz" class="inline-link">echo.sealcred.xyz</a>, 
+                    <a target="_blank" href="https://dosu.io" class="inline-link">dosu.io</a> using React in conjunction with TypeScript. 
+                    <br />We also made <a target="_blank" href="https://ketl.xyz" class="inline-link">ketl.xyz</a> and <a target="_blank" href="https://app.ketl.xyz/1/520" class="inline-link">app.ketl.xyz</a> using cross-platform React-Native-Web. 
+                    I learned teamwork and upped my skills a lot
+                  </p>
+                </div>
+              </div>
+
+            </div>           
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <!-- <section
+            class="certificate section"
+            id="certificates"
+          >
+            <h2 class="section-title">Cerfs.</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  I have nothing to show :)
+                </h3>
+                <p class="certificate__description">
+                  I usually work to show my skill
+                </p>
+              </div>
+            </div>
+          </section> -->
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>React
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >TypeScript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >Tailwind
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>React-Native-Web
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >Solidity
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >MongoDB
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Node.js
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >Bash
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >HTML/CSS
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >Firebase
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span
+                  >MongoDB
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>JAM
+                  Stack
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section
+            class="references section"
+            id="references"
+          >
+            <h2 class="section-title">Refs.</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle"
+                  >Sr. Director</span
+                >
+                <h3 class="references__title">
+                  Nikita Kolmogorov
+                </h3>
+                <ul class="references__contact">
+                  <li>Site: http://borodutch.com</li>
+                  <li>Telegram: @borodutch</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <!-- <section class="languages section">
+            <h2 class="section-title">Langs.</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  English
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Russian
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Latin
+                </li>
+              </ul>
+            </div>
+          </section> -->
+
+          <!--========== INTERESTS ==========-->
+          <!-- <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-brush interests__icon"></i>
+                <span class="interests__name">Art</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-game interests__icon"></i>
+                <span class="interests__name">Games</span>
+              </div>
+
+              <div class="interests__content">
+                <i
+                  class="bx bx-book-heart interests__icon"
+                ></i>
+                <span class="interests__name">Books</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-brain interests__icon"></i>
+                <span class="interests__name"
+                  >Psychology</span
+                >
+              </div>
+            </div>
+          </section> -->
+
+          
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a target="_blank" href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bxs-chevron-up scrolltop__icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+    <!--========== YA Metrika ==========-->
+      <script type="text/javascript" >
+         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+         ym(84638311, "init", {
+              clickmap:true,
+              trackLinks:true,
+              accurateTrackBounce:true,
+              webvisor:true
+         });
+      </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/84638311" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  </body>
+</html>
