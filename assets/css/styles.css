@@ -419,6 +419,13 @@ img {
   color: var(--container-color);
 }
 
+/*========== TAB ==========*/
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+
 /*========== SOCIAL ==========*/
 
 .social__container {
