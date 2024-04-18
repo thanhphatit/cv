@@ -468,6 +468,10 @@ img {
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
 
+.experience__description {
+    width: 100%;
+}
+
 .experience__company {
     display: flex;
     justify-content: space-between;
