@@ -455,6 +455,17 @@ img {
   text-align: center;
 }
 
+/*========== FREELANCER ==========*/
+
+.freelancer__title {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.freelancer__title_time {
+    float: right;
+}
+
 /*========== EDUCATION AND EXPERIENCE ==========*/
 
 .experience__company {
