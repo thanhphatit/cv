@@ -423,7 +423,7 @@ img {
 
 .tab {
     display: inline-block;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 /*========== SOCIAL ==========*/
@@ -456,6 +456,15 @@ img {
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
+
+.experience__company {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.experience__company_time {
+    float: right;
+}
 
 .education__content,
 .experience__content {
