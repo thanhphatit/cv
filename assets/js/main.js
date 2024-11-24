@@ -139,7 +139,7 @@ const pdfOptions = {
   margin: 0,
   filename: 'CVThanhPhatIT.pdf',
   image: { type: 'png', quality: 1 },
-  html2canvas: { scale: 5 },
+  html2canvas: { scale: 4 },
   jsPDF: { format: 'a4', orientation: 'portrait' },
 }
 
