@@ -656,6 +656,15 @@ img {
   break-after: avoid;
 }
 
+/*========== MANUAL PDF PAGE BREAK MARKER ==========*/
+.pdf-break {
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px) {

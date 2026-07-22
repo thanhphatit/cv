@@ -141,7 +141,12 @@ const pdfOptions = {
   image: { type: 'png', quality: 1 },
   html2canvas: { scale: 4 },
   jsPDF: { format: 'a4', orientation: 'portrait' },
-  pagebreak: { mode: ['css', 'legacy'] },
+  pagebreak: {
+    mode: ['css', 'legacy'],
+    before: '.pdf-break',
+    avoid: ['.exp-project', '.education__content', '.certificate__content',
+            '.freelancer__content', '.references__content', '.knowledge__content'],
+  },
 }
 
 function generateResume() {
