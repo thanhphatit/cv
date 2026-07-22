@@ -634,6 +634,28 @@ img {
   bottom: 5rem;
 }
 
+/*========== PAGE BREAK FIX (Export PDF) ==========*/
+.education__content,
+.experience__content,
+.experience__data,
+.certificate__content,
+.certificate__container,
+.freelancer__content,
+.freelancer__container,
+.references__content,
+.knowledge__content,
+.social__container,
+.skills__content,
+.interests__content {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.section-title {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 @media screen and (max-width: 320px) {

@@ -141,6 +141,7 @@ const pdfOptions = {
   image: { type: 'png', quality: 1 },
   html2canvas: { scale: 4 },
   jsPDF: { format: 'a4', orientation: 'portrait' },
+  pagebreak: { mode: ['css', 'legacy'] },
 }
 
 function generateResume() {
