@@ -139,8 +139,7 @@ const pdfOptions = {
   margin: 0,
   filename: 'CVThanhPhatIT.pdf',
   image: { type: 'png', quality: 1 },
-  //html2canvas: { scale: 4 },
-  html2canvas: { scale: 3, useCORS: true, windowWidth: 1024 },
+  html2canvas: { scale: 4 },
   jsPDF: { format: 'a4', orientation: 'portrait' },
   pagebreak: {
     mode: ['css', 'legacy'],
