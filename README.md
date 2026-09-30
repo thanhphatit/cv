@@ -10,12 +10,12 @@
 
 ## How to launch locally?
 
-Simply `git clone https://github.com/thanhphatit/cv.git`\
-Then `cd cv` into folder\
-Launch `index.html`
+1. `git clone https://github.com/thanhphatit/cv.git`
+2. `cd cv`
+3. Launch `index.html`
 
-I personally use vscode `live server` extension, so it runs on `localhost:5500`
+*I personally use the VS Code `Live Server` extension, so it runs on `localhost:5500`.*
 
 ---
 
-<a href="https://www.buymeacoffee.com/thanhphatit"><img src="https://img.buymeacoffee.com/button-api/?text=Support me with a coffee&emoji=☕️&slug=tdamer&button_colour=ffcc33&font_colour=000&font_family=Lato&outline_colour=000&coffee_colour=000"></a>
+<a href="https://www.buymeacoffee.com/thanhphatit"><img src="https://img.buymeacoffee.com/button-api/?text=Support me with a coffee&emoji=☕️&slug=thanhphatit&button_colour=ffcc33&font_colour=000&font_family=Lato&outline_colour=000&coffee_colour=000"></a>
